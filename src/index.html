@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Monitor Test111</title>
+</head>
+<body>
+<input type="text"/>
+<script type="text/javascript">
+    !function (a, e) {
+        if (!a.MyMonitor) {
+            a.MyMonitor = {};
+            var n = a.document.createElement("script");
+            n.src = "http://localhost:3333/main.bundle.js", n.onload = function () {
+            }, n.async = 1;
+            var t = document.getElementsByTagName("script")[0];
+            t.parentNode.insertBefore(n, t)
+        }
+    }(window, {});
+</script>
+</body>
+</html>

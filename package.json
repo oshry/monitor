@@ -1,0 +1,27 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "server": "node ./server --port 3333 --delay 500"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mongodb": "^3.0.5",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0"
+  }
+}
